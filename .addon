@@ -1,0 +1,27 @@
+{
+  "Title": "Entity Pools",
+  "Type": "library",
+  "Org": "gooman",
+  "Ident": "entity_pools",
+  "Tags": null,
+  "Schema": 1,
+  "HasAssets": true,
+  "AssetsPath": "",
+  "ResourcePaths": null,
+  "HasCode": true,
+  "CodePath": ".",
+  "PackageReferences": [],
+  "EditorReferences": null,
+  "Metadata": {
+    "ProjectTemplate": null,
+    "CsProjName": "entity_pools",
+    "Compiler": {
+      "RootNamespace": "EntityPools",
+      "DefineConstants": "SANDBOX;ADDON;DEBUG",
+      "NoWarn": "1701;1702;1591;",
+      "Nullables": true,
+      "References": [],
+      "DistinctReferences": []
+    }
+  }
+}
