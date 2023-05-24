@@ -11,5 +11,16 @@ A pooling mechanism for entities with an API like C# [ArrayPool\<T\>](https://le
 ## Installation
 You can either download from this repo or you can reference it with `gooman.entity_pools` using [asset.party](https://asset.party/)
 
+## Example Usage
+```cs
+// Get yourself an existing or new instance of MyEntity.
+var rentedEntity = EntityPool<MyEntity>.Shared.Rent();
+
+// Mess with your rented entity.
+
+// Return the entity back to the pool for reuse.
+EntityPool<MyEntity>.Shared.Return( rentedEntity );
+```
+
 ## License
 Distributed under the MIT License. See the [license](https://github.com/peter-r-g/Sbox-EntityPools/blob/master/LICENSE.md) for more information.
